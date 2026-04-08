@@ -36,4 +36,8 @@ public class Show {
         }
         System.out.println("Актёр с фамилией " + surname + " не найден");
     }
+
+    public Director getDirector() {
+        return director;
+    }
 }

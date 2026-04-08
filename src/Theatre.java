@@ -44,5 +44,9 @@ public class Theatre {
 
         System.out.println("Либретто балета:");
         ballet.printLibretto();
+
+        System.out.println("Режиссёр спектакля 'Ревизор': " + show.getDirector());
+        System.out.println("Режиссёр оперы 'Травиата': " + opera.getDirector());
+        System.out.println("Режиссёр балета 'Лебединое озеро': " + ballet.getDirector());
     }
 }
